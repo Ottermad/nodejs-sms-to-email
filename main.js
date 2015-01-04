@@ -21,7 +21,7 @@ app.post('/', function(req, res) {
 	});
   });
     
-app.listen(8080, function() {
+app.listen(process.env.PORT || 8080, function() {
   console.log('Server running at http://127.0.0.1:8080/');
 });
 
