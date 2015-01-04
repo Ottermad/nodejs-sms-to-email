@@ -1,0 +1,32 @@
+{
+  "name": "nodejs-sms-to-email",
+  "version": "1.0.0",
+  "description": "A simple app to send emails using SMS",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ottermad/nodejs-sms-to-email"
+  },
+  "keywords": [
+    "Node.js",
+    "Express.js"
+  ],
+  "author": "Ottermad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ottermad/nodejs-sms-to-email/issues"
+  },
+  "homepage": "https://github.com/Ottermad/nodejs-sms-to-email",
+  "dependencies": {
+    "body-parser": "^1.10.1",
+    "express": "^4.10.6",
+    "sendgrid": "^1.4.0"
+  },
+  "engines": {
+    "node": "0.10.35"
+  }
+}
