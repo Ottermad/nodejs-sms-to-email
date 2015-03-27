@@ -1,7 +1,7 @@
 var bodyParser = require('body-parser')
 var express = require('express');
 var app     = express();
-var sendgrid  = require('sendgrid')('Ottermad','OttersR0ck');
+var sendgrid  = require('sendgrid')('','');
 
 app.use(bodyParser());
 
